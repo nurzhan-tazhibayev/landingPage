@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMBOX</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/all.css">
+    <script src="https://kit.fontawesome.com/37900db658.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <div class="button_fixed">
+        <a href=""></a>
+    </div> -->
+    <header class="header">
+        <div class="header_item_1">
+            <a href="">CINEMBOX</a>
+        </div>
+        <div class="header_item">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Service</a>
+                <a href="">What We Do</a>
+                <a href="">Our Gallary</a>
+                <a href="">Review</a>
+                <a href="">Team</a>
+                <a href="">Blog</a>
+        </div>
+        <ul class="menu">
+            <li><a class="menuItem" href="">Home</a></li>
+            <li><a class="menuItem" href="">About</a></li>
+            <li><a class="menuItem" href="">Service</a></li>
+            <li><a class="menuItem" href="">What We Do</a></li>
+            <li><a class="menuItem" href="">Our Gallary</a></li>
+            <li><a class="menuItem" href="">Review</a></li>
+            <li><a class="menuItem" href="">Team</a></li>
+            <li><a class="menuItem" href="">Blog</a></li>
+        </ul>
+          <button class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+    </header>
+
+    <div class="slider">
+        <div class="slider-content">
+            <h1>#NO 1 
+                <br>
+                CINEMBOX 
+                <br>
+                STUDIO
+            </h1>
+            <button onclick="openModal()" class="cc-btn">Open modal</button>
+            
+        </div>
+        <div class="slider-content">
+            <h1>#NO 1 
+                <br>
+                CINEMBOX 
+                <br>
+                STUDIO
+            </h1>
+            <button onclick="openModal()" class="cc-btn">Open modal</button>
+        </div>
+    </div>
+    <div id="modal-window">
+        <div class="modal-content">
+            <button onclick="closeModal()" class="close-btn">x</button>
+            <h3>Оставьте заявку</h3>
+            <input type="text" placeholder="Введите имя">
+            <input type="text" placeholder="Введите номер телефона">
+            <button>Отправить заявку</button>
+        </div>
+    </div>
+
+    <div class="main container">
+        <div class="main_best-film">
+            <div class="main_img">
+            <img src="img/cms_1.jpg" alt="cms_1">
+            </div>
+                <div>
+                    <h2>BEST FILM STUDIOS</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+                    <button onclick="openModal()" class="cc-btn">Open modal</button>
+                    <div id="modal-window">
+                        <div class="modal-content">
+                            <button onclick="closeModal()" class="close-btn">x</button>
+                            <h3>Оставьте заявку</h3>
+                            <input type="text" placeholder="Введите имя">
+                            <input type="text" placeholder="Введите номер телефона">
+                            <button>Отправить заявку</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="main_best-film">
+            <div>
+                <h2>FILM AWARDS 2023</h2>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+                <button onclick="openModal()" class="cc-btn">Open modal</button>
+                <div id="modal-window">
+                    <div class="modal-content">
+                        <button onclick="closeModal()" class="close-btn">x</button>
+                        <h3>Оставьте заявку</h3>
+                        <input type="text" placeholder="Введите имя">
+                        <input type="text" placeholder="Введите номер телефона">
+                        <button>Отправить заявку</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main_img">
+                <img src="img/cms_2.jpg" alt="cms_2">
+            </div>
+        </div>
+    </div>
+
+    <div class="area container">
+        <div class="title">
+            <h5>BEST SERVICES</h5>
+            <h2 id="output-best">OUR PRODUCTION</h2>
+            <!-- <h2 id="output-best2">OUR Product</h2> -->
+        </div>
+        <div class="row">
+            <div class="content">
+                <div class="little-img">
+                    <img src="img/shows.png" alt="shows">
+                </div>
+                    <h4>TV SHOWS</h4>
+                    <p>It is a long established fact that a reader will be</p>
+            </div>
+            <div class="content">
+                <div class="little-img">
+                    <img src="img/awards.png" alt="awards">
+                </div>
+                    <h4>FILM AWARDS</h4>
+                    <p>It is a long established fact that a reader will be</p>
+            </div>
+            <div class="content">
+                <div class="little-img">
+                    <img src="img/directors.png" alt="directors">
+                </div>
+                    <h4>DIRECTORS</h4>
+                    <p>It is a long established fact that a reader will be</p>
+            </div>
+            <div class="content">
+                <div class="little-img">
+                    <img src="img/festivals.png" alt="festivals">
+                </div>
+                    <h4>FESTIVALS</h4>
+                    <p>It is a long established fact that a reader will be</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="what-we-do container">
+        <div class="what-we-do-title">
+            <h5>NOW IN CINEMA</h5>
+            <h2>WHAT WE DO</h2>
+        </div>
+        <div class="what-we-do-photos">
+            <div class="genres">
+                <div class="genres_img">
+                    <img src="img/01.jpg" alt="01">
+                </div>
+                    <h4>TV shows</h4>
+                    <p>Comedy</p>
+            </div>
+            <div class="genres">
+                <div class="genres_img">
+                    <img src="img/02.jpg" alt="02">
+                </div> 
+                    <h4>MOVIE</h4>
+                    <p>Action</p>
+            </div>
+            <div class="genres">
+                <div class="genres_img">
+                <img src="img/03.jpg" alt="03">
+                </div>
+                    <h4>GIRLS</h4>
+                    <p>Comedy</p>
+            </div>
+            <div class="genres">
+                <div class="genres_img">
+                    <img src="img/04.jpg" alt="04">
+                </div>
+                    <h4>HAPPINESS</h4>
+                    <p>Retro</p>
+            </div>
+            <div class="genres">
+                <div class="genres_img">
+                    <img src="img/05.jpg" alt="05">
+                </div>    
+                    <h4>RETRO</h4>
+                    <p>Romance</p>
+            </div>
+            <div class="genres">
+                <div class="genres_img">
+                    <img src="img/06.jpg" alt="06">
+                </div>
+                    <h4>ACTION</h4>
+                    <p>Comedy</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-work-gallery">
+        <div class="gallery-title">
+            <h5>NOW IN CINEMA</h5>
+            <h2>OUR WORK GALLERY</h2>
+        </div>
+        <div class="gallery-photos">
+            <div class="photo">
+                <img src="img/01 (1).jpg" alt="01 (1)">
+            </div>
+            <div class="photo">
+                <img src="img/02 (1).jpg" alt="02 (1)">
+            </div>           
+            <div class="photo">
+                <img src="img/03 (1).jpg" alt="03 (1)">
+            </div>
+            <div class="photo">
+                <img src="img/04 (1).jpg" alt="04 (1)">
+            </div>
+            <div class="photo">
+                <img src="img/05 (1).jpg" alt="05 (1)">
+            </div>
+        </div>
+    </div>
+
+    <div class="vhon-worn container">
+        <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots <br> classical latin literature from making over 2000 years old."</p>
+        <img src="img/testimonial-1.svg" alt="testimonial">
+        <h4 class="worn-title">- VHON WORN</h4>
+    </div>
+    
+    <div class="welcome container">
+        <div class="man-text">
+            <div class="man-text-img">
+                <img src="img/about.jpg" alt="about">
+            </div>
+            <div class="text-img">
+                <h2>WELCOME TO CINEMBOX MOVIE PRODUCTION STUDIO</h2>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots classical Latin literature from making over 2000 years old.from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+                <img src="img/about_tag_01.png" alt="tag1">
+                <img src="img/about_tag_02.png" alt="tag2">
+                <img src="img/about_tag_03.png" alt="tag3">
+            </div>
+        </div>
+    </div>
+
+    <div class="cast-crew container">
+        <div class="cast-title">
+            <h5>OUR TEAMS</h5>
+            <h2>CAST & CREW</h2>
+        </div>
+        <div class="face">
+            <div class="circle">
+                <div class="circle_img">
+                    <img src="img/circle1.png" alt="circle1">
+                </div>
+                    <h4>Zecin Marc</h4>
+                    <p>Producer</p>
+            </div>
+            <div class="circle">
+                <div class="circle_img">
+                    <img src="img/circle2.png" alt="circle2">
+                </div>
+                    <h4>Emilia Chaplin</h4>
+                    <p>Director</p>
+            </div>
+            <div class="circle">
+                <div class="circle_img">
+                    <img src="img/circle3.png" alt="circle3">
+                </div>
+                    <h4>Astri Zaq</h4>
+                    <p>Film Maker</p>
+            </div>
+            <div class="circle">
+                <div class="circle_img">
+                    <img src="img/circle4.png" alt="circle4">
+                </div>
+                    <h4>Shipnu Zwon</h4>
+                    <p>Assistant</p>
+            </div>
+            <div class="circle">
+                <div class="circle_img">
+                    <img src="img/circle3.png" alt="circle5">
+                </div>
+                    <h4>Astri Zaq</h4>
+                    <p>Film Maker</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog container">
+        <div class="blog-title">
+            <h5>LATEST NEWS</h5>
+            <h2>FROM OUR BLOG</h2>
+        </div>
+        <div class="blog-april">
+            <div class="april">
+                <div class="april_img">
+                    <img src="img/camera.jpg" alt="camera">
+                </div>
+                    <p>April 20, 2023</p>
+                    <h4>New Hampshire Movie</h4>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. it has roots.</p>
+            </div>
+            <div class="april">
+                <div class="april_img">
+                    <img src="img/car.jpg" alt="car">
+                </div>
+                    <p>April 20, 2023</p>
+                    <h4>The printing and typesetting industry.</h4>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. it has roots.</p>
+            </div>
+            <div class="april">
+                <div class="april_img">
+                    <img src="img/girl.jpg" alt="girl">
+                </div>
+                <p>April 20, 2023</p>
+                <h4>There are many variations of passages available</h4>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. it has roots.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="presents">
+        <div class="presents_parg">
+            <p>Presents a Production In Association With</p>
+        </div> 
+        <div class="presents_img">
+            <img src="img/film.png" alt="film">
+            <img src="img/cinema.png" alt="cinema">
+            <img src="img/open.png" alt="open">
+            <img src="img/video.png" alt="video">
+            <img src="img/festival.png" alt="festival">
+            <img src="img/film.png" alt="film">
+        </div>
+    </div>
+
+    <div class="news_film container">
+        <div class="title">
+            <h4>NEWS & FILM UPDATES</h4>
+            <p>Sign up to get the latest on new Products, Promotions, Design news and more</p>
+        </div>
+        <div class="in_but">
+            <input type="text">
+            <button>SUBSCRIBE</button>
+        </div>
+        <div class="line"></div>
+    </div>
+
+    <div class="footer container">
+        <div class="footer_title">
+            <div class="text">
+                <div>
+                    <h4>ABOUT</h4>
+                </div>
+                <div>
+                    <a href="">Contrary to popular belief, Lorem <br> Ipsum is not simply random</a>
+                </div>
+            </div>
+            
+            <div class="text">
+                <div>
+                    <h4>PRODUCTION</h4>
+                </div>
+                <div>
+                    <a href="">About Edge</a>
+                    <a href="">Latest Videos</a>
+                    <a href="">Studio Tour</a>
+                    <a href="">Latest News</a>
+                </div>
+            </div>
+
+            <div class="text">
+                <div>
+                    <h4>HELP</h4>
+                </div>
+                <div>
+                    <a href="">About Edge</a>
+                    <a href="">Latest Videos</a>
+                    <a href="">Studio Tour</a>
+                </div>
+            </div>
+
+            <div class="text">
+                <div>
+                    <h4>INSTAGRAM</h4>
+                </div>
+                <div class="footer-img">
+                    <img src="img/fotter1.jpg" alt="fotter1">
+                    <img src="img/fotter2.jpg" alt="fotter2">
+                    <img src="img/fotter3.jpg" alt="fotter3">
+                    <img src="img/fotter4.jpg" alt="fotter4">
+                    <img src="img/fotter5.jpg" alt="fotter5">
+                    <img src="img/fotter6.jpg" alt="fotter6">
+                </div>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="footer_2023">
+            <p>© 2023 All Rights Reserved</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" 
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="slick/slick.min.js"></script>
+    
+    <script src="JS/slider.js"></script>
+    <script src="JS/modal.js"></script>
+    <script src="JS/typewriter.js"></script></body>
+    <script src="JS/menu.js"></script>
+    </html>

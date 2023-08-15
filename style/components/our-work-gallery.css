@@ -1,0 +1,39 @@
+.our-work-gallery{
+    color: #fff;
+    text-align: center;
+}
+
+.gallery-title h5{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.gallery-title h2{
+    margin: 10px 0 40px 0;
+    padding: 10px 0 50px 0;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2
+}
+
+.gallery-photos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.photo{
+    width: calc(20% - 20px);
+    overflow: hidden;
+}
+
+.photo img{
+    width: 100%;
+    transition: .4s;
+}
+
+.photo img:hover{
+    transform: scale(1.2);
+}
+

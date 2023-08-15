@@ -1,0 +1,62 @@
+.what-we-do{
+    color: #fff;
+    text-align: center;
+}
+
+.what-we-do-title h5{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.what-we-do-title h2{
+    margin: 10px 0 40px 0;
+    padding: 10px 0 50px 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.what-we-do-photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.genres{
+    width: calc(30% - 30px);
+    padding: 30px 0;
+}
+
+.genres h4{
+    margin: 10px 0;
+}
+
+.genres_img{
+    overflow: hidden;
+
+}
+
+.genres_img img{
+    transition: .4s;
+    width: 100%;
+}
+
+.genres_img img:hover{
+    transform: scale(1.2);
+}
+l
+.genres img{
+    width: 100%;
+}
+
+.genres p{
+    color: #ccc;
+}
+
+@media(max-width:710px){
+    .genres{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

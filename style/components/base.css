@@ -1,0 +1,29 @@
+body{
+    background-color: #111;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.line{
+    border: 1px solid #212121;
+    margin-top: 50px
+}
+.button_fixed a{
+    background-image: url("../../img/back-to-top.png");
+    opacity: 1;
+    visibility: visible;
+    display: inline-block;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+}

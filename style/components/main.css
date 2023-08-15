@@ -1,0 +1,54 @@
+.main{
+    color: #fff;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.main_best-film{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 10px;
+    width: 100%;
+}
+
+.main_img{
+    overflow: hidden;
+    width: 100%;
+}
+
+.main_img img{
+    transition: .4s;
+    width: 100%;
+}
+
+.main_img img:hover{
+    transform: scale(1.2);
+}
+
+.main_best-film img{
+    width: 100%;
+}
+
+.main h2{
+    font-size: 40px;
+    font-weight: 500;
+    display: inline;
+}
+
+.main_best-film p{
+    margin: 20px 0;
+    color: #ccc;
+}
+
+@media(max-width:990px){
+    .main_best-film{
+    flex-wrap: wrap;
+    text-align: center;
+}
+}

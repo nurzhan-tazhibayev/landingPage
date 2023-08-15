@@ -1,0 +1,25 @@
+.vhon-worn{
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.vhon-worn p{
+    margin-top: 100px;
+    padding: 30px 0;
+    font-size: 16px;
+    color: #ccc;
+    line-height: 25px
+}
+
+.vhon-worn h4{
+    padding: 10px 0 30px 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2
+}
+
+.vhon-worn img{
+    height: 80px;
+    width: 80px;
+}
